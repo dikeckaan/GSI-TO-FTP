@@ -15,8 +15,8 @@ on:
     
 env:
   ROM_URL: https://dl.google.com/dl/android/aosp/coral-rp1a.200720.009-factory-dac149ce.zip
-  ROM_NAME: Pixel
-  ZIP_NAME: Coral-11
+  ROM_NAME: OxgenOS
+  ZIP_NAME: 6T-latest-stable
   TZ: Asia/Kolkata
   username : KaanDikec
   password : hrdNiDBqbHo7

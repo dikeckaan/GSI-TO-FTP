@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dl.google.com/dl/android/aosp/coral-rp1a.200720.009-factory-dac149ce.zip
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus6TOxygen_34_OTA_047_all_2007171912_3ac1d37aee4841a9.zip
   ROM_NAME: OxgenOS
   ZIP_NAME: 6T-latest-stable
   TZ: Asia/Kolkata

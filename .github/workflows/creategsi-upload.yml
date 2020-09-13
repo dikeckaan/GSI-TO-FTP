@@ -73,7 +73,7 @@ jobs:
            username: 'kaandikec'
            server: '${{ secrets.SERVER_IP }}'
            ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-           local_path: 'ErfanGSIs/output/*.7z'
+           local_path: './ErfanGSIs/output/*.7z'
            remote_path: '${{ secrets.PROJECTLOCATION }}'
            args: '-o ConnectTimeout=5'
        - name: Print build info

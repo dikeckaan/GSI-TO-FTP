@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus6TOxygen_34_OTA_047_all_2007171912_3ac1d37aee4841a9.zip
-  ROM_NAME: OxgenOS
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16th/8.20.9.8/cn_daily/20200908165432/85b5f8d5/update.zip
+  ROM_NAME: Flyme
   ZIP_NAME: 6T-latest-stable
   TZ: Asia/Kolkata
   username : KaanDikec

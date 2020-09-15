@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/20.9.10/miui_CEPHEUS_20.9.10_089c768ff5_10.0.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MI9-20.9.10
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus7TOxygen_14.O.18_OTA_018_all_2007240040_77d64cd32274479a.zip   
+  ROM_NAME: OxygenOS
+  ZIP_NAME: 7t-stable
   TZ: Asia/Kolkata
   username : KaanDikec
   password : hrdNiDBqbHo7
@@ -73,7 +73,7 @@ jobs:
            username: 'kaandikec'
            server: 'frs.sourceforge.net'
            ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-           local_path: './ErfanGSIs/output/*.7z'
+           local_path: 'ErfanGSIs/output/'
            remote_path: '/home/pfs/project/kaan-gsi'
            args: '-o ConnectTimeout=5'
        - name: Print build info

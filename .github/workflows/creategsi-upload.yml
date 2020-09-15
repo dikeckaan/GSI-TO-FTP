@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus7TOxygen_14.O.18_OTA_018_all_2007240040_77d64cd32274479a.zip   
-  ROM_NAME: OxygenOS
-  ZIP_NAME: 7t-stable
+  ROM_URL: https://assorted.downloads.oppo.com/firmware/CPH1871Q/CPH1875EUEX_11_OTA_3120_all_1LdyQsmIpxeb.ozip   
+  ROM_NAME: ColorOS
+  ZIP_NAME: FindX-CPH1875EUEX_11_F.12
   erfanrepo: https://github.com/Area69Lab/ErfanGSIs.git 
   TZ: Asia/Kolkata
   username : KaanDikec

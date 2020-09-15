@@ -17,6 +17,7 @@ env:
   ROM_URL: https://oxygenos.oneplus.net/OnePlus7TOxygen_14.O.18_OTA_018_all_2007240040_77d64cd32274479a.zip   
   ROM_NAME: OxygenOS
   ZIP_NAME: 7t-stable
+  erfanrepo: https://github.com/Area69Lab/ErfanGSIs.git 
   TZ: Asia/Kolkata
   username : KaanDikec
   password : hrdNiDBqbHo7
@@ -31,7 +32,7 @@ jobs:
        
        - name: Clean Up
          run: |
-           docker rmi `docker images -q`
+           
            sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/apt/sources.list.d
            sudo -E apt-get -y purge azure-cli ghc* zulu* hhvm llvm* firefox google* dotnet* powershell openjdk* mysql* php*
            sudo -E apt-get update
@@ -44,7 +45,7 @@ jobs:
             sudo -E apt-get -qq install git openjdk-8-jdk wget
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs
+         run: git clone --recurse-submodules $erfanrepo
        
        - name: Setting up ErfanGSI requirements
          run: |
